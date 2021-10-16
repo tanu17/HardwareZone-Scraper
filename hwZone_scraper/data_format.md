@@ -1,0 +1,30 @@
+Here _thread_ refers to thread started by a user in a particular forum. The replies of a particular thread are referred to as _post_ here.
+
+{
+'thread_index' : Index of thread scraped for particular payload,
+'post_index' : Index of post in above thread,
+'thread_name' : Name of thread scraped,
+'post_content' : Text content of post,
+'post_replied_to' : The post scraped is a reply to the post id- {post_index and thread_index},
+'post_image_attached' : Link of any image attached in the post,
+'post_video_link' : Link of any video attached in the post,
+'post_fb_link' : Link of any facebook post attached in the post,
+'post_external_link' : Any external link attached in the post,
+'post_author' : Details of author of the post - {
+                                                  'name' : Display name of author,
+                                                  'title' : Title attached to author,
+                                                  'join_date' : Date joined hardwareZone,
+                                                  'message#' : Number of messages posted in Forums,
+                                                  'reaction_score' : Number of reacts received,
+                                                  'link' : Link to profile,
+                                                 },
+'post_created_at' : Time the post was created at,
+'thread_created_at' : Time the thread was created at,
+'thread_replies_count' : Number of replies the thread received,
+'thread_belongs_to_forum': Name of forum the thread belongs to,
+'thread_author' : Details of the author of the thread {Username and link to profile},
+'post_url' : Link to post,
+'thread_url' : Link to thread,
+'post_reactions' : Link to reaction the post got,
+'post_byline' : Byline in a post,
+            }
